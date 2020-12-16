@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T16:10:48.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.4" etag="Fq69nEM7eBS6-ino0JrZ" type="github"><diagram id="lccYT7YiIblwlesu4lNg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-16T16:30:53.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eGXg1RSZyh1kVkSMKkVU" version="14.0.4" type="github">
+  <diagram id="lccYT7YiIblwlesu4lNg" name="Page-1">
+    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Co7IdbDviE72o3SrbOX-1" value="db evenda_venda" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-252" width="41" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-2" value="db evenda_estoque" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-720" width="41" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-3" value="Service Bus&lt;br&gt;Produto alterado" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus_topics_and_subscriptions;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="-474" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-4" value="Service Bus&lt;br&gt;Produto Criado" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus_topics_and_subscriptions;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="413" y="-584" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-5" value="Service Bus &lt;br&gt;Produto Vendido" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus_topics_and_subscriptions;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="-371" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-6" target="7Co7IdbDviE72o3SrbOX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-6" target="7Co7IdbDviE72o3SrbOX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-6" value="WEBAPI Vendas" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/web-development-5/500/api-code-window-128.png" vertex="1" parent="1">
+          <mxGeometry x="180" y="-330" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-7" target="7Co7IdbDviE72o3SrbOX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="-680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.02;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-7" target="7Co7IdbDviE72o3SrbOX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.02;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-7" target="7Co7IdbDviE72o3SrbOX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-7" value="WEBAPI Estoque" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/web-development-5/500/api-code-window-128.png" vertex="1" parent="1">
+          <mxGeometry x="180" y="-720" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-9" target="7Co7IdbDviE72o3SrbOX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-9" target="7Co7IdbDviE72o3SrbOX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-9" value="Worker Service Estoque" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-550" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-10" target="7Co7IdbDviE72o3SrbOX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-10" target="7Co7IdbDviE72o3SrbOX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Co7IdbDviE72o3SrbOX-10" target="7Co7IdbDviE72o3SrbOX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-10" value="Worker Service Venda" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-410" width="60" height="63" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
