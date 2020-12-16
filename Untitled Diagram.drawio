@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T16:32:01.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="s8TcodViR71dhXuL-cv7" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T16:33:43.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9ssT4hXy5En0NSmZZY7Z" version="14.0.4" type="github">
   <diagram id="lccYT7YiIblwlesu4lNg" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7Co7IdbDviE72o3SrbOX-1" value="db evenda_venda" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+        <mxCell id="7Co7IdbDviE72o3SrbOX-1" value="SQL Server&lt;br&gt;&amp;nbsp;evenda_venda" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
           <mxGeometry x="620" y="-252" width="41" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7Co7IdbDviE72o3SrbOX-2" value="db evenda_estoque" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+        <mxCell id="7Co7IdbDviE72o3SrbOX-2" value="SQL Server&lt;br&gt;&amp;nbsp;evenda_estoque" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
           <mxGeometry x="620" y="-720" width="41" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7Co7IdbDviE72o3SrbOX-3" value="Service Bus&lt;br&gt;Produto alterado" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus_topics_and_subscriptions;pointerEvents=1;" vertex="1" parent="1">
