@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Evenda.Venda.Data\Evenda.Venda.Data.csproj" />
+    <ProjectReference Include="..\EVenda.Venda.Utils\EVenda.Venda.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
