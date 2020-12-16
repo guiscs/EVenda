@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T16:30:53.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eGXg1RSZyh1kVkSMKkVU" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T16:32:01.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="s8TcodViR71dhXuL-cv7" version="14.0.4" type="github">
   <diagram id="lccYT7YiIblwlesu4lNg" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,6 +62,9 @@
         </mxCell>
         <mxCell id="7Co7IdbDviE72o3SrbOX-10" value="Worker Service Venda" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="630" y="-410" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="7Co7IdbDviE72o3SrbOX-25" value="Arquitetura Projeto EVendas - Arquitetura Orientada a Eventos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-810" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
